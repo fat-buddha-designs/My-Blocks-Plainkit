@@ -1,0 +1,32 @@
+title: Blocks Template
+icon: page
+
+status:
+  draft: true
+  unlisted:
+    label: Hidden Page
+    text: The page is not listed in the main menu
+  listed:
+    label: Menu Page
+    text: The page is listed in the main menu
+
+options:
+  changeTemplate:
+  - default
+  - blocks
+
+tabs:
+  blocks:
+    columns:
+    label: Page Content
+    fields:
+      pageContent:
+        type: blocks
+        multiple: true
+        fieldsets:
+          text:
+            label: Text
+            type: group
+            fieldsets:
+              - textblock
+              - twintextblock

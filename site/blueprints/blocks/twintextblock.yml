@@ -1,0 +1,27 @@
+title: Twin Text Block
+fields:
+  texts:
+    label: Text Blocks
+    type: structure
+    fields:
+      icon:
+        label: Icon
+        type: icon
+        max: 1
+      text:
+        label: Text
+        type: textarea
+        font: sans-serif
+        size: small
+        spellcheck: true
+        buttons:
+          - headlines
+          - ul
+          - ol
+          - bold
+          - italic
+          - blockquote
+          - highlight
+          - '|'
+          - file
+          - link

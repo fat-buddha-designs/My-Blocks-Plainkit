@@ -1,0 +1,9 @@
+title: Site
+
+sections:
+  pages:
+    type: pages
+    sortBy: title
+    template:
+      - blocks
+      - default

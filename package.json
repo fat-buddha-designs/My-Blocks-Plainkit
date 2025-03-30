@@ -1,0 +1,9 @@
+{
+  "name": "plainkit",
+  "main": "index.php",
+  "author": "Will Moody",
+  "scripts": {
+    "start": "npm run server",
+    "server": "php -S localhost:8888 ./kirby/router.php"
+  }
+}
